@@ -1,0 +1,32 @@
+# --- Core app / UI ---
+streamlit>=1.32
+
+# --- Computer vision / detection ---
+ultralytics>=8.1        # YOLOv8
+opencv-python>=4.9       # use opencv-python-headless instead if deploying on a headless server
+numpy>=1.26
+
+# --- Data / analytics ---
+pandas>=2.2
+plotly>=5.20
+
+# --- Video transcoding (browser-playable H.264 MP4 output) ---
+# System `ffmpeg` is tried first (fastest); these are the pure-Python
+# fallback used automatically if `ffmpeg` isn't on PATH.
+imageio>=2.34
+imageio-ffmpeg>=0.4.9
+
+# --- PDF report generation ---
+reportlab>=4.1
+
+# --- Live webcam detection page (streamlit-webrtc) ---
+streamlit-webrtc>=0.47
+av>=11.0
+
+# --- Optional: Decision Intelligence extras (repair_cost_service /
+#     life_prediction_service / explainability_service all degrade
+#     gracefully with a heuristic fallback if these aren't installed,
+#     but install them for the full ML-backed behavior) ---
+xgboost>=2.0
+shap>=0.45
+matplotlib>=3.8

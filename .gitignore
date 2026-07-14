@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# =========================
+# Dataset
+# =========================
+damage_dataset/
+train/
+valid/
+test/
+
+# =========================
+# Data Pipeline
+# =========================
+data/raw/
+data/processed/
+data/exports/
+
+# =========================
+# Database
+# =========================
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Outputs
+# =========================
+outputs/
+runs/
+predictions/
+
+# =========================
+# Videos & Images
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# Pretrained YOLO models
+yolov8*.pt
